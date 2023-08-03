@@ -26,7 +26,7 @@ export const projects = [
         id: 0,
         name: "Portfolio 2023",
         description:
-            "This is the fifth iteration of my portfolio.",
+            "My portfolio.",
         technologies: [SiReact, SiNextdotjs, SiTailwindcss],
         techNames: ["React", "Next.js", "Tailwind CSS"],
         techLinks: ["https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/"],
