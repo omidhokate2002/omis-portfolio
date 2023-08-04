@@ -27,10 +27,10 @@ const Tools = () => {
                 />
 
                 <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
-                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100%]">
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
-                            <AnimatedTools className="grid grid-cols-10 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
+                            <AnimatedTools className="grid grid-cols-5 gap-8" delay={0.2} stepSize={0.1} iconSize={50}>
                                 <SiHtml5 size={50} />
                                 <SiCss3 size={ 50} />
                                 <SiSass size={50}/>
@@ -43,10 +43,10 @@ const Tools = () => {
                             </AnimatedTools>
                         </div>
                     </div>
-                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100%]">
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
-                            <AnimatedTools className="grid grid-cols-10 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
+                            <AnimatedTools className="grid grid-cols-5 gap-8" delay={0.3} stepSize={0.1} iconSize={50}>
                                 <SiNodedotjs size={50} />
                                 <SiNodemon size={50} />
                                 <SiExpress size={50} />
@@ -55,10 +55,10 @@ const Tools = () => {
                             </AnimatedTools>
                         </div>
                     </div>
-                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100%]">
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.5} text="Deployment" />
                         <div>
-                            <AnimatedTools className="grid grid-cols-10 gap-4" delay={0.5} stepSize={0.1} iconSize={50}>
+                            <AnimatedTools className="grid grid-cols-5 gap-8" delay={0.5} stepSize={0.1} iconSize={50}>
                           
                                 <SiFirebase/>
                                 <SiVercel size={50 } />
@@ -71,10 +71,10 @@ const Tools = () => {
                             </AnimatedTools>
                         </div>
                     </div>
-                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100%]">
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.4} text="Other" />
                         <div>
-                            <AnimatedTools className="grid grid-cols-10 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
+                            <AnimatedTools className="grid grid-cols-5 gap-8" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50}/>
                                 <SiGit size={50} />
                                 <SiVisualstudiocode size={50} />

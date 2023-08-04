@@ -3,7 +3,7 @@ import React from "react";
 const ContactBackground: React.FC = () => {
     return (
         <div className="absolute inset-0">
-            <video
+            {/* <video
                 className="h-full w-full object-cover"
                 autoPlay={true}
                 loop
@@ -12,7 +12,7 @@ const ContactBackground: React.FC = () => {
                 preload="auto"
             >
                 <source src="/galaxy.mp4" type="video/mp4" />
-            </video>
+            </video> */}
             <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-bg-dark to-transparent" />
             <div className="absolute inset-0 h-full w-full bg-gradient-to-b from-bg-dark to-transparent" />
         </div>

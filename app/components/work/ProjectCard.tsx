@@ -53,32 +53,15 @@ const ProjectCard = ({
                     } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}
                 >
                     {available ? (
-                        <>
-                            <Link
-                                href={github}
-                                target="_blank"
-                                aria-label="Open GitHub Repository"
-                                className="rounded-full w-[20px] bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[65px] lg:text-[28px]"
-                                data-blobity
-                                data-blobity-radius="35"
-                                data-blobity-offset-x="4"
-                                data-blobity-offset-y="4"
-                                data-blobity-magnetic="false">
-                                <SiGithub/>
-                            </Link>
-                            <Link
-                                href={demo}
-                                target="_blank"
-                                aria-label="Open Live Demo"
-                                className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[65px] lg:text-[28px]"
-                                data-blobity
-                                data-blobity-radius="35"
-                                data-blobity-offset-x="4"
-                                data-blobity-offset-y="4"
-                                data-blobity-magnetic="false">
-                                <BsLink45Deg/>
-                            </Link>
-                        </>
+                        <div className="flex justify-center space-x-4">
+                            <a href={github} target="_blank" aria-label="Open GitHub Repository" className="rounded-full link-container" rel="noreferrer">
+                                <SiGithub class="w-6 h-6 md:w-7 md:h-7 lg:w-16 lg:h-16 text-white" />
+                            </a>
+                            <a href={demo} target="_blank" aria-label="Open Live Demo" className="rounded-full link-container" rel="noreferrer">
+                                <BsLink45Deg class="w-6 h-6 md:w-7 md:h-7 lg:w-16 lg:h-16 text-white" />
+                            </a>
+                        </div>
+
                     ) : (
                         <div></div>
                     )}
