@@ -9,12 +9,12 @@ const Footer = () => {
             initial="initial"
             animate="animate"
         >
-            <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
+            {/* <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
                 <AnimatedBody
                     text={"© Om Dhokate"}
                     className={"m-0 p-0"}
                 />
-            </motion.div>
+            </motion.div> */}
         </motion.section>
     );
 };
