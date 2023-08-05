@@ -1,6 +1,5 @@
 {
-  "name": "www.seekvisualartist.com",
-  "version": "5.0.0",
+  "name": "Om Dhokate",
   "private": true,
   "scripts": {
     "dev": "next dev",
