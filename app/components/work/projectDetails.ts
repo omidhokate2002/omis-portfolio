@@ -45,7 +45,7 @@ export const projects = [
         techLinks: ["https://react.dev/", "https://nodejs.org/en", "https://www.mongodb.com/", "https://mui.com/", "https://razorpay.com/"],
         github: "https://github.com/omidhokate2002/flixxit",
         demo: "https://flixxit-frontend.vercel.app/",
-        image: "/projects/codewars.webp",
+        image: "/projects/flixxit.png",
         available: true,
     },
     // {
